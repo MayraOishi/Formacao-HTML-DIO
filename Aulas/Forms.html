@@ -1,0 +1,25 @@
+#Aprendendo Tags Form
+#Name= nome pro formulário. 
+#Action = para os dados vão (pode colocar o endereço). 
+#Method = "get" manda pela URL ou "post" não aparece no endereço, ele manda por uma requisção
+#Target = se vai abrir em outra página ou na mesma do formulário, "_blank" abre em outra aba.
+#Autocomplete = "on" e "off" se ao recarregar o site ele preenche o formulário automaticamente.
+#on... = eventos, muito utilizado o "onsubmit" para validar o formulário
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fomulario de Cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form name="signup" onsubmi="alert('Enviou o formulário')" autocomplete="on" Target= "_blank" method="post" action="#">
+            Nome: <input type="text" name="name" /><br>
+            Idade: <input type="number" name="age" /><br>
+            Senha: <input type="password" name="password" /><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
