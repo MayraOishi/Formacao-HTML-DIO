@@ -1,4 +1,4 @@
-html, body {
+html body {
     margin: 0;
 }
 body {
@@ -13,25 +13,30 @@ body {
     margin: 0 auto;
     background-color: aquamarine;
 }
+
 .main {
-    display: flex;
+    display: felx;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
     background-color: aqua;
     padding: 10px 20px 0px;
 }
+
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
 }
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
