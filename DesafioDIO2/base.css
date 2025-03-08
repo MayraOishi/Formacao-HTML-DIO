@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(142, 229, 255);
 }
 
 .main {
@@ -22,22 +22,28 @@ body {
 
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #7da0ca;
     padding: 10px 20px 0px;
 }
 
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    max-height: 200px;
+    max-width: 100%;
+    display: flex;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
 }
 
 .content {
-    background-color: white;
-    min-height: 300px;
-    padding: 20px;
+    background-color: #c1e8ff;
+    min-height: 400px;
+    padding: 10px;
 }
 
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: white;
+    min-height: 100px;
 }
