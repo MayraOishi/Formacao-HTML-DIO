@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: rgb(142, 229, 255);
+    background-color: rgb(255, 255, 255);
 }
 
 .main {
@@ -22,7 +22,7 @@ body {
 
 .menu {
     width: 15%;
-    background-color: #7da0ca;
+    background-color: #24719c;
     padding: 10px 20px 0px;
 }
 
@@ -38,12 +38,12 @@ body {
 }
 
 .content {
-    background-color: #c1e8ff;
+    background-color: #cbe8f6;
     min-height: 400px;
     padding: 10px;
 }
 
 .footer {
-    background-color: white;
+    background-color: #5199bb;
     min-height: 100px;
 }
