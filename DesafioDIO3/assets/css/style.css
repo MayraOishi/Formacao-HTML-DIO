@@ -30,6 +30,10 @@ a { color:blue; text-decoration: none;}
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
+.anchors h2{
+    background-color: lightblue;
+
+}
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
